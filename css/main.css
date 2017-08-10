@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/blue_z.jpg);
+  background-position: center;
+  background-attachment: relative;
+}
+
+h1.header {
+  text-align: center;
+  color: lightcoral;
+  font-size: 55px;
+}
+#text {
+  color: white;
+}
+div {
+  text-align: center;
+  padding: 46px;
+}
+input {
+  font-size: 30px;
+  width: 17%;
+  margin-bottom: 14px;
+}
+button {
+  background-color: lightblue;
+  border-style: none;
+}
+
+#btn {
+  margin-top: 10px;
+  border-radius: 14px;
+}
+
+/*
+==============
+Footer
+==============
+*/
+
+footer .links{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+footer .links a > i{
+    font-size: 2.3em;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer .links a > i:hover{
+    color: white;
+}
+footer .links .ccopy{
+    margin-top: 25px;
+    font-size: 1.86em;
+    color: black;
+}
+footer .links .ccopy > i{
+    color: red;
+    margin: 0;
+    padding: 3px
+}
+.fa-linkedin, .fa-github {
+  color: white;
+}
