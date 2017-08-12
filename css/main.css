@@ -11,8 +11,9 @@ body {
 
 h1.header {
   text-align: center;
-  color: lightcoral;
-  font-size: 55px;
+  color: black;
+  font-size: 102px;
+  font-family: 'Just Another Hand', cursive;
 }
 #text {
   color: white;
@@ -20,6 +21,7 @@ h1.header {
 div {
   text-align: center;
   padding: 46px;
+
 }
 input {
   font-size: 30px;
@@ -60,6 +62,7 @@ footer .links .ccopy{
     margin-top: 25px;
     font-size: 1.86em;
     color: black;
+    font-family: 'Just Another Hand', cursive;
 }
 footer .links .ccopy > i{
     color: red;
