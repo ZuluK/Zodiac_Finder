@@ -85,6 +85,12 @@
 		document.getElementById("image").src = zodiac[i].image;
 		document.getElementById("text").textContent = zodiac[i].text;
     return;
-		}
+    
+		}  else {
+		console.log("no matches were found, user failed to type in a correct zodiac sign");
+
+		document.getElementById("text").textContent = "Not one of the signs. Try again!";
+		document.getElementById("image").src = "";
    }
- };
+ }
+};
